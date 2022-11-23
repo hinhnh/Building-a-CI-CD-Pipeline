@@ -1,5 +1,5 @@
 hello:
-	echo "this is my first make command33"
+	echo "this is my first make command"
 
 setup:
 	python -m venv .azure-devops
@@ -13,8 +13,6 @@ lint:
 
 test:
 	python -m pytest -vv test_hello.py
-	#python -m pytest -vv --cov=myrepolib tests/*.py
-	#python -m pytest --nbval notebook.ipynb
-
+	
 all: install lint test
 
