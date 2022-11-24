@@ -1,6 +1,6 @@
 # Overview
 
-<TODO: complete this with an overview of your project>
+In this project, we will build  a CI/CD  pipeline from  scraft with  Github Actions and  Azure Pipelines.We will use Github Actions along with a Makefile to perform  to install, verify and test code when submit to Repo Git. Then we will integrate this project with Azure Pipelines to enable Continuous Delivery to Azure App Service.
 
 ## Project Plan
 <TODO: Project Plan
