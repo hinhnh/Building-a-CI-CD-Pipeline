@@ -1,11 +1,11 @@
 # Overview
 
-In this project, we will build  a CI/CD  pipeline from  scraft with  Github Actions and  Azure Pipelines.We will use Github Actions along with a Makefile to perform  to install, verify and test code when submit to Repo Git. Then we will integrate this project with Azure Pipelines to enable Continuous Delivery to Azure App Service.
+In this project, we will build  a CI/CD  pipeline from  scraft with  Github Actions and  Azure Pipelines. We will use Github Actions along with a Makefile to perform  to install, verify and test code when submit to Repo Git. Then we will integrate this project with Azure Pipelines to enable Continuous Delivery to Azure App Service.
 
 ## Project Plan
 
 * A [link](https://trello.com/b/0loSqcDf/building-a-ci-cd-pipeline) to a Trello board for the project
-* A [link](Plan Project CI-CD Worksheet.xlsx) to a spreadsheet that includes the original and final project plan>
+* A [link](Plan-Project-CI-CD-Worksheet.xlsx) to a spreadsheet that includes the original and final project plan>
 
 ## Instructions
 
