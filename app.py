@@ -20,7 +20,7 @@ def scale(payload):
 
 @app.route("/")
 def home():
-    html = "<h3>Sklearn Prediction Home with CI/CD</h3>"
+    html = "<h3>Sklearn Prediction Home with CI/CD updated</h3>"
     return html.format(format)
 
 # TO DO:  Log out the prediction value
@@ -33,7 +33,7 @@ def predict():
         # clf = joblib.load("./Housing_price_model/StochasticGradientDescent.joblib")
         #clf = joblib.load("./Housing_price_model/GradientBoostingRegressor.joblib")       
         # return "Model not loaded"
-        return jsonify({'prediction': "[ 20.35373177134412 ]"})
+        return jsonify({'prediction': "[ 20.35373177136868 ]"})
     except:
         LOG.info("JSON payload: %s json_payload")
         return "Model not loaded"
