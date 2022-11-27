@@ -65,6 +65,11 @@ cat /home/nguyen/.ssh/id_rsa.pub
 ![Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
  The output should show such as below capture: 
  ![Output for running base make_predict_azure_app.sh](Output_run_make_predict_azure_app.jpg)
+ ```
+ hinh [ ~/Building-a-CI-CD-Pipeline ]$ ./make_predict_azure_app.sh
+ Port: 443
+ {"prediction":"[ 20.35373177136868 ]"}
+ ```
 
  7. To use following command to trace streamed log files from deployed application:
  ```
