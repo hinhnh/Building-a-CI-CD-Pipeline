@@ -49,6 +49,7 @@ cat /home/nguyen/.ssh/id_rsa.pub
  - Then run command "make all" to to install package, verify and test 
  * Output of test running
  ![Pass test](Output-Test-Pass.jpg)
+ ![The GitHub actions badge]([![CI with Github Actions](https://github.com/hinhnh/Building-a-CI-CD-Pipeline/actions/workflows/main.yml/badge.svg)](https://github.com/hinhnh/Building-a-CI-CD-Pipeline/actions/workflows/main.yml))
 
 3. Set up Azure Pipelines connect to GitHub Repo, we will have Pipeline such as below capture. [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
 ![Azure Pipelines](Output-Azure-Pipelines.jpg)
