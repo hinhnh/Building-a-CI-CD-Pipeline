@@ -80,8 +80,7 @@ cat /home/nguyen/.ssh/id_rsa.pub
 
 
 ## Demo 
-
-https://youtu.be/0i7VeX6YbyA
+* You can see demo at this link: https://youtu.be/0i7VeX6YbyA
 
 
 
