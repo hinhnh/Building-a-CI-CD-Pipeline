@@ -12,7 +12,7 @@ In this project, we will build a CI/CD pipeline from  scraft with  Github Action
 ## Instructions
 
 * Architectural Diagram 
-![Architectural Diagram](Architectural-Diagram.png)
+![Architectural Diagram](./Images/Architectural-Diagram.png)
 
 
 1. Create the Cloud-Based Development Environment
@@ -64,21 +64,21 @@ cat /home/nguyen/.ssh/id_rsa.pub
 
 
 6. To test api prediction from deployed flask app in Azure Cloud Shell.  
-![Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
- The output should show such as below capture: 
- ```bash
+[Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh). The output should show such as below capture: 
+ ```
+ bash
  $ ./make_predict_azure_app.sh
  ```
  ![Output for running base make_predict_azure_app.sh](./Images/Output_run_make_predict_azure_app.jpg)
  
- 7. To use following command to trace streamed log files from deployed application:
+7. To use following command to trace streamed log files from deployed application:
  ```
   az webapp log tail -g hinhnh-project2-rg --name my-app-flask
  ``` 
  ![Output-Live-Log-Stream](./Images/Output-Live-Log-Stream.jpg)
 
- 8. Output of locust load test 
- ![Oupt-test-locust](./Images/Output-test-locust.jpg)
+8. Output of locust load test 
+![Oupt-test-locust](./Images/Output-test-locust.jpg)
 
 ## Enhancements
 
