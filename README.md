@@ -1,5 +1,5 @@
 
- (![CI with Github Actions](https://github.com/hinhnh/Building-a-CI-CD-Pipeline/actions/workflows/main.yml/badge.svg)
+ ![CI with Github Actions](https://github.com/hinhnh/Building-a-CI-CD-Pipeline/actions/workflows/main.yml/badge.svg)
 # Overview
 
 In this project, we will build a CI/CD pipeline from  scraft with  Github Actions and Azure Pipelines. We will use GitHub Actions along with a Makefile to perform  to install, verify and test code when submit to GitHub Repo. Then we will integrate this GitHub Repo with Azure Pipelines to enable Continuous Delivery to Azure App Service.
@@ -66,7 +66,10 @@ cat /home/nguyen/.ssh/id_rsa.pub
 6. To test api prediction from deployed flask app in Azure Cloud Shell.  
 ![Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
  The output should show such as below capture: 
- ![Output for running base make_predict_azure_app.sh](Output_run_make_predict_azure_app.jpg)
+ ```bash
+ $ ./make_predict_azure_app.sh
+ ```
+ ![Output for running base make_predict_azure_app.sh](./Images/Output_run_make_predict_azure_app.jpg)
  
  7. To use following command to trace streamed log files from deployed application:
  ```
@@ -75,7 +78,7 @@ cat /home/nguyen/.ssh/id_rsa.pub
  ![Output-Live-Log-Stream](./Images/Output-Live-Log-Stream.jpg)
 
  8. Output of locust load test 
- ![Oupt-test-locust](./Images/Oupt-test-locust.jpg)
+ ![Oupt-test-locust](./Images/Output-test-locust.jpg)
 
 ## Enhancements
 
